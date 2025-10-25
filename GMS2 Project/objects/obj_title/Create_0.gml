@@ -17,3 +17,7 @@ if (rng == 1) {
 audio_sound_loop_start(mus_asset, loop_start);
 audio_sound_loop_end(mus_asset, loop_end);
 audio_play_sound(mus_asset, 0, true, 1, 0);
+
+var freeplay_btn = instance_create_depth(1500, 110, -100, obj_button)
+var options_btn = instance_create_depth(1500, 250, -100, obj_button)
+options_btn.text = "EXIT"

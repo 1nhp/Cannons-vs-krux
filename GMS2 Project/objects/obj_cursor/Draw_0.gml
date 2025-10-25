@@ -1,0 +1,6 @@
+draw_set_alpha(1)
+draw_sprite_ext(spr_cursor_normal, 0, x, y, image_xscale, image_yscale, 0, c_white, 1)
+gpu_set_fog(true, c_white, 0, 1000)
+draw_sprite_ext(spr_cursor_normal, 0, x, y, image_xscale, image_yscale, 0, c_white, highlight_alpha)
+draw_self()
+gpu_set_fog(false, c_white,0,1000)

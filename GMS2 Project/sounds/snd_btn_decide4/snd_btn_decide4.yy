@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_btn_decide4",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.08115646,
+  "name":"snd_btn_decide4",
+  "parent":{
+    "name":"UI",
+    "path":"folders/Sounds/UI.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_btn_decide4.ogg",
+  "type":0,
+  "volume":1.0,
+}
