@@ -1,0 +1,1 @@
+global.deltatime = delta_time / 1000000;
